@@ -9,7 +9,7 @@ body{
 
 
     }
-    section{
+.flexible-container{
         display: flex;
         margin-bottom: 100px;
     }
@@ -30,14 +30,14 @@ body{
 
         text-decoration: none;
         background-color: red;
-        padding: 10px 20px;
+        padding: 10px 20px; 
         border-radius: 8px;
         background-image: linear-gradient(red,orange);
         color: white;
         font-weight: 600    ;
 
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
@@ -48,4 +48,25 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.exp{
+box-shadow: 10px 10px 20px black;
+margin-right: 5%;
+margin-left: 5%;
+padding: 10px;
+border-left: 10px solid rgb(187, 59, 20);
+
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position:left;
+
+}
+#exp1{
+    border-image:linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+
+
+
 }
